@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+
+body{
+  margin: 0;
+}
+
+.all{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+
+.static{
+  position: fixed;
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+  background-color: #fff;
+  border-radius: 2px;
+  z-index: 1000;
+  align-items: end;
+}
+
+.header ul{
+  list-style: none;
+}
+
+.header ul li{
+  font-family: 'Space Mono';
+  float: left;
+  margin-right: 30px;
+  font-weight: 600;
+  color: #001219;
+  letter-spacing: 1px;
+}
+
+.header ul li:hover{
+  border-bottom: solid #ee9b00 1px;
+  color: #ee9b00;
+  cursor: pointer;
+}
+
+.content{
+  background-image: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)),url('https://i.postimg.cc/1tKvf1r6/wallpapersden-com-programming-coding-language-2560x1440.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.perfilImg{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.content-body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-body h1{
+  font-family: 'Space Mono';
+  color: #34a0a4;
+}
+
+.content-body h2{
+  font-family: 'Gruppo';
+  font-size: 25px;
+  font-weight: 550;
+  color: #34a0a4;
+}
+
+.bt{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content-portfolio{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-image: url("https://i.postimg.cc/BnFBmpn4/00261129-5214-4ff5-9e67-2f92a849eb53.png");
+  background-color: #ee9b00;
+}
+
+.row{
+  height: 80%;
+  width: 80%;
+}
+
+.carousel-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.carousel-content-left{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.carousel-content-right{
+  width: 40%;
+  height: 100%;
+}
+
+.heidth-carousel{
+  height: 100%;
+}
+
+.projetcImg{
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.projetcImgModal{
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.box-detail{
+  width: 70%;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
+}
+
+.box-detail h1{
+  font-family: 'Unica One', cursive;
+}
+
+.box-detail h2{
+  font-family: 'Roboto Mono';
+  font-size: 13px;
+  color: gray;
+}
+
+.box-detail button{
+  margin-top: 20px;
+}
+
+.dtd{
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.title-model h1{
+  font-size: 30px;
+  font-family: 'Roboto Mono';
+}
+
+.title-model h2{
+  font-family: 'Work Sans', helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgb(58, 58, 58);
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.title-content-right{
+  width: 50%;
+}
+
+.title-content-left{
+  width: 50%;
+  padding: 0px 20px 20px 20px;
+}
+
+.wide {
+  width: 90%;
+}
+
+.modal{
+  --bs-modal-width: auto;
+}
+
+.modal-body-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tec h1{
+  font-size: 1rem;
+  font-family: 'Work Sans', helvetica, sans-serif; 
+}
+
+.tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tags span{
+  background-color: #ee9b00;
+  padding: 3px 3px 3px 3px;
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.title-content-left a{
+  margin-top: 1rem;
+}
+
+.modal-header{
+  border-bottom: 0;
+  flex-direction: column;
+}
+
+.carousel-control-prev-icon {
+  background-size: 5rem 5rem;
+  font-weight: 900;
+  width: 100px;
+  height: 100px;
+  margin-left: -250px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-size: 5rem 5rem;
+  font-weight: 900;
+  width: 100px;
+  height: 100px;
+  margin-left: -100px;;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
