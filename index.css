@@ -47,6 +47,11 @@ body{
   letter-spacing: 1px;
 }
 
+.header ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .header ul li:hover{
   border-bottom: solid #ee9b00 1px;
   color: #ee9b00;
